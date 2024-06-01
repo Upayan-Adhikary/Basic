@@ -30,14 +30,14 @@ void main(){
                             //Append function cannot be used for character type array
                             //after append s1 contains the concatinated string and s2 remains same as input
                                 
-                                // string s1, s2;
+                                string s1, s2;
                                 
-                                // getline(cin,s1);
-                                // getline(cin,s2);
+                                getline(cin,s1);
+                                getline(cin,s2);
 
-                                // s1.append(s2);  
-                                // cout<<s1<<endl;
-                                // cout<<'\n'<<s2<<endl;
+                                s1.append(s2);  
+                                cout<<s1<<endl;
+                                cout<<'\n'<<s2<<endl;
 
 
                             //Uses the ‘strcat()‘, which is an inbuilt function under the library ‘string.h’, the two strings are concatenated.

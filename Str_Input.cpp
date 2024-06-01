@@ -19,7 +19,7 @@ void main()
                 while (getline(cin,word)) //read until end-of-file "CTRL+C"
                 cout << word << '\n' << word.size() <<endl; //write each word followed by a new line, counts the space as well
 
-                            //Method - 3 Getline for character array
+                            // Method - 3 Getline for character array
 
                             char s3[30], s4[20];
 
@@ -38,6 +38,11 @@ void main()
 
                                             cout<<"enter s2 ";
                                             getline(cin,s2);
+
+                                            cout<<s1<<' '<<s2<<endl; //original value
+
+                                            swap(s1,s2); //swaps s1 with s2 and s2 with s1.
+                                            cout<<s1<<' '<<s2<<endl; //swaped value
 
 
 }//end of main
